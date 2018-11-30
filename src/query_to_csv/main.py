@@ -6,8 +6,7 @@ QUERY = """
         SELECT *
         FROM procom.trades
         WHERE exec_time
-        BETWEEN '2016-05-31 00:00:00' AND '2016-06-31 00:00:00'
-        LIMIT 100
+        BETWEEN '2016-05-31 00:00:00' AND '2018-01-31 00:00:00'
         """
 
 FILENAME = "procom_data.csv"
